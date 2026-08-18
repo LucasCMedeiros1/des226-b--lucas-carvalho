@@ -9,9 +9,12 @@
   "keywords": [
     "NodeJS",
     "JavaScript",
-    "Lógica de programação"
+    "Logica de programacao"
   ],
   "author": "Lucas Carvalho",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
