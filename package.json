@@ -1,0 +1,17 @@
+{
+  "name": "des226-b--lucas-carvalho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "Lógica de programação"
+  ],
+  "author": "Lucas Carvalho",
+  "license": "ISC",
+  "type": "commonjs"
+}
