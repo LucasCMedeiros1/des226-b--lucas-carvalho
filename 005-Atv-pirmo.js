@@ -18,3 +18,5 @@ console.log("-------------------");
 console.log("Bilheteria", typeof bilheteria);
 console.log("numPaisesExibidos", typeof numPaisesExibidos);
 console.log("Recomendarai", typeof recomendaBool);
+
+entrada();
