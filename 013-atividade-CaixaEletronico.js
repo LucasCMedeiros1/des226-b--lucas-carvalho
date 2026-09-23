@@ -11,8 +11,6 @@ function perguntar(pergunta) {
   });
 }
 
-// 1. Autenticação de Usuário
-
 let usuario1 = "giovania";
 let senha1 = "12345";
 let saldo1 = 500;
@@ -39,10 +37,8 @@ async function iniciarCaixa() {
 
   let saldo = 0;
 
-  // Ignora maiúsculas e minúsculas no nome de usuário
   login = login.toLowerCase();
 
-  // Verifica o usuário e a senha
   if (login === usuario1.toLowerCase()) {
     usOK = true;
 
@@ -66,8 +62,6 @@ async function iniciarCaixa() {
     }
   }
 
-  // 2. Validação de Acesso
-
   if (!usOK || !snOK) {
     console.log("Acesso negado!");
     entrada.close();
@@ -75,8 +69,6 @@ async function iniciarCaixa() {
   }
 
   acessoPermitido = true;
-
-  // 3. Operação Financeira (Saque)
 
   if (acessoPermitido) {
     console.log("Acesso permitido!");
@@ -86,8 +78,6 @@ async function iniciarCaixa() {
     let saque = parseInt(valorTexto);
 
     if (saque <= saldo && saque > 0) {
-      // 4. Cálculo de Cédulas e Novo Saldo
-
       let novoSaldo = saldo - saque;
 
       console.log("Saque realizado com sucesso!");
